@@ -6,15 +6,19 @@ body {
 }
 
 figure.map {
-  float: left;
+  position: absolute;
+  top: 250px;
+  left: 50px;
   padding: 30px;
-  margin: 20px 0 20px 60px;
+  margin: 20px;
 }
 
 figure.satellite {
-  float: right;
+  position: absolute;
+  top: 250px;
+  left: 500px;
   padding: 30px;
-  margin: 20px 60px 20px 0;
+  margin: 20px;
 }
 
 figcaption {
@@ -66,7 +70,6 @@ p.a {
   left: 20px;
   box-sizing: content-box;
   overflow: scroll;
-  float: left;
   background: #b9d5ea;
   border: 5px solid #00778b; /*bahamas blue*/
   width: 250px;
@@ -81,7 +84,6 @@ p.b {
   left: 400px;
   box-sizing: content-box;
   overflow: scroll;
-  float: center;
   background: #b9d5ea;
   border: 5px solid #00778b; /*bahamas blue*/
   width: 250px;
@@ -93,10 +95,9 @@ p.b {
 p.c {
   position: absolute;
   top: 770px;
-  right: 20px;
+  left: 780px;
   box-sizing: content-box;
   overflow: scroll;
-  float: right;
   background: #b9d5ea;
   border: 5px solid #00778b; /*bahamas blue*/
   width: 250px;
@@ -137,7 +138,7 @@ p.c {
 .third {
   position: absolute;
   top: 1210px;
-  right: 20px;
+  left: 780px;
   box-sizing: content-box;
   overflow: scroll;
   background: #b9d5ea;
@@ -179,7 +180,7 @@ p.c {
 .thirda {
   position: absolute;
   top: 1650px;
-  right: 20px;
+  left: 780px;
   box-sizing: content-box;
   overflow: scroll;
   background: #b9d5ea;
@@ -221,7 +222,7 @@ p.c {
 .thirdb {
   position: absolute;
   top: 2090px;
-  right: 20px;
+  left: 780px;
   box-sizing: content-box;
   overflow: scroll;
   background: #b9d5ea;
