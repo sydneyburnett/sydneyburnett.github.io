@@ -1,0 +1,107 @@
+body {
+  color: #000000; /*black*/
+  font: 14px "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5em;
+  margin: 25px;
+}
+
+figcaption{
+  color: #000000; /*black*/
+  font: bold italic 14px "Roboto", "Helvetica", "Arial", sans-serif;
+  padding: 2px;
+  margin-bottom: 3px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #000000; /*black*/
+  font: 60px "Bebas Neue", "Helvetica", "Arial", sans-serif;
+  background-color: #afccd8; /*brand blue*/
+  padding: 40px 0px 20px 0px;
+}
+
+h2 {
+  color: #afccd8; /*brand blue*/
+  font: bold 40px "Roboto", "Helvetica", "Arial", sans-serif;
+  padding: 10px 0px;
+  text-transform: uppercase;
+}
+
+p {
+  color: #000000; /*black*/
+  font: 14px "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5em;
+}
+
+figure.gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+article.aboutme {
+  position: absolute;
+  top: 400px;
+  align: center;
+  box-sizing: content-box;
+  background: #afccd8; /*brand blue*/
+  border: 5px solid #5d9aa6; /*brand medium blue*/
+  width: 400px;
+  height: 410px;
+  padding: 20px;
+  margin: 20px;
+}
+
+a,
+a:link {
+  color: #5d9aa6; /*brand medium blue*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a9a9a9; /*dark gray*/
+}
+
+a:hover {
+  color: #46808c; /*brand darker blue*/
+}
+
+a:active {
+  color: #000000; /*black*/
+}
+
+ol.navigation {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  font: bold 25px "Roboto", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px;
+  margin: -50px 0px 0px 0px;
+  background-color: #afccd8; /*brand blue*/
+}
+
+li.navigation {
+  padding: 20px 40px;
+}
+
+li.navigation a {
+  display: block;
+  border: 1px solid #46808c; /*brand darker blue*/
+  border-radius: 3px;
+  text-align: center;
+  padding: 0px;
+}
+
+p.footer {
+  text-align: right;
+  font: bold italic 14px "Roboto", "Helvetica", "Arial", sans-serif;
+  padding: 400px 0px 20px 0px;
+  margin: 20px;
+}
